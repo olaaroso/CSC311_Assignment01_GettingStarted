@@ -1,5 +1,12 @@
-.root{
-    -fx-background-color: #00ff00;
+.root {
+    /* ToDo 04: Background set to Lightblue */
+    -fx-background-color: lightblue;
     -fx-padding: 10;
     -fx-spacing: 10;
+}
+
+/* ToDo 04: Button color set to red */
+.button {
+    -fx-background-color: red;
+    -fx-text-fill: white; /* Optional: Makes the text readable on red */
 }

@@ -3,8 +3,9 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="org.example.csc311_assignment01_gettingstarted.AppController">
     <padding>
@@ -12,5 +13,9 @@
     </padding>
 
     <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onCalculateButtonClick"/>
+
+    <TextField fx:id="tfNumber1" promptText="Enter first number"/>
+    <TextField fx:id="tfNumber2" promptText="Enter second number"/>
+
+    <Button text="Calculate" onAction="#onCalculateButtonClick"/>
 </VBox>
